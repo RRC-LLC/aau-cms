@@ -4,7 +4,8 @@
   "info": {
     "singularName": "service",
     "pluralName": "services",
-    "displayName": "Service"
+    "displayName": "Service",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -16,7 +17,7 @@
       "required": true
     },
     "Information": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

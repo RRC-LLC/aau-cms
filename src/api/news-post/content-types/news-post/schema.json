@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-post",
     "pluralName": "news-posts",
-    "displayName": "News-Post"
+    "displayName": "News-Post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -21,20 +22,21 @@
       "unique": true
     },
     "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "Body": {
-      "type": "text"
+      ]
     },
     "Subheader": {
       "type": "string"
     },
     "Preview_Text": {
       "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
     }
   }
 }
