@@ -28,14 +28,15 @@
       "type": "string"
     },
     "Certifications": {
-      "type": "string"
+      "type": "text"
     },
     "Photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
