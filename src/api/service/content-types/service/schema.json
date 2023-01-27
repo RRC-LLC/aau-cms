@@ -19,13 +19,8 @@
     "Information": {
       "type": "richtext"
     },
-    "Media": {
-      "allowedTypes": [
-        "images",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false
+    "Media_Link": {
+      "type": "string"
     }
   }
 }
