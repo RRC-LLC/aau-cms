@@ -35,14 +35,23 @@
     "Locations": {
       "type": "string"
     },
-    "Review_Links": {
-      "type": "string"
-    },
-    "Education": {
-      "type": "text"
-    },
     "Certifications": {
       "type": "text"
+    },
+    "Undergraduate_Degree": {
+      "type": "string"
+    },
+    "Medical_Degree": {
+      "type": "string"
+    },
+    "Internship": {
+      "type": "string"
+    },
+    "Residency": {
+      "type": "string"
+    },
+    "Fellowship": {
+      "type": "string"
     }
   }
 }

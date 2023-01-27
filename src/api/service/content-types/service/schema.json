@@ -18,6 +18,14 @@
     },
     "Information": {
       "type": "richtext"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

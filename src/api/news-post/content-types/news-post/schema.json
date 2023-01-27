@@ -37,6 +37,9 @@
     },
     "Body": {
       "type": "richtext"
+    },
+    "Date": {
+      "type": "date"
     }
   }
 }

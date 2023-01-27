@@ -21,9 +21,6 @@
       "required": true,
       "unique": true
     },
-    "Address": {
-      "type": "text"
-    },
     "Hours": {
       "type": "text"
     },
@@ -35,6 +32,16 @@
         "images",
         "videos"
       ]
+    },
+    "PDF": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Address": {
+      "type": "richtext"
     }
   }
 }
