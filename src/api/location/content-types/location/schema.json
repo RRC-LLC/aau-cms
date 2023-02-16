@@ -49,6 +49,9 @@
       "required": true,
       "unique": true,
       "min": 1
+    },
+    "Media_Link": {
+      "type": "string"
     }
   }
 }
