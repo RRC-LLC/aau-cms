@@ -52,6 +52,14 @@
     },
     "Media_Link": {
       "type": "string"
+    },
+    "Direction_Link": {
+      "type": "string",
+      "required": true
+    },
+    "iFrame_Src": {
+      "type": "string",
+      "required": true
     }
   }
 }
