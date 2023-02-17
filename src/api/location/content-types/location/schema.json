@@ -54,11 +54,11 @@
       "type": "string"
     },
     "Direction_Link": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "iFrame_Src": {
-      "type": "string",
+      "type": "text",
       "required": true
     }
   }
